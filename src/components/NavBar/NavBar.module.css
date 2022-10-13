@@ -1,0 +1,21 @@
+.container {
+    padding-top: 1rem;
+    background-color: red;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    margin-right: 4rem;
+}
+
+.buttons p {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    display: inline-block;
+    color: whitesmoke;
+}
