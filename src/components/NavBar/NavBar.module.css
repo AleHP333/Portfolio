@@ -1,6 +1,5 @@
 .container {
     padding-top: 1rem;
-    background-color: red;
     width: 100%;
     height: 4rem;
     display: flex;
@@ -8,14 +7,32 @@
 }
 
 .buttons {
+    display: flex;
+    align-items: center;
     margin-right: 4rem;
 }
 
 .buttons p {
     font-weight: bold;
     font-size: 1.1rem;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    margin: 15px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
     display: inline-block;
     color: whitesmoke;
 }
